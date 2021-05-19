@@ -1,15 +1,31 @@
-# Vulhub - Pre-Built Vulnerable Environments Based on Docker-Compose
+<p align="center">
+  <img src=".github/assets/logo.svg" alt="Vulhub" height="300" />
+  <p align="center">
+    <a href="https://github.com/vulhub/vulhub/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/vulhub/vulhub.svg" alt="GitHub">
+    </a> 
+    <a href="https://www.wangan.com/vulhub">
+      <img src="https://img.shields.io/badge/Official-Community-blue.svg" alt="Official Community">
+    </a>
+    <a href="https://discord.gg/GhMB3Z">
+      <img src="https://img.shields.io/discord/485505185167179778.svg" alt="Chat on Discord">
+    </a>
+    <a href="https://www.patreon.com/phith0n">
+      <img src="https://img.shields.io/badge/sponsor-patreon-73d6a1.svg" alt="Backers and sponors on Patreon">
+    </a>
+    <a href="https://opencollective.com/vulhub#backer">
+      <img src="https://img.shields.io/badge/backer-opencollective-f89a76.svg" alt="Backers and sponors on Opencollective">
+    </a>
+  </p>
+</p>
 
-[![Docker Stars](https://img.shields.io/badge/docker%20stars-20k-blue.svg)](https://hub.docker.com/u/vulhub/) [![GitHub](https://img.shields.io/github/license/vulhub/vulhub.svg)](https://github.com/vulhub/vulhub/blob/master/LICENSE)
- [![Chat on Discord](https://img.shields.io/discord/485505185167179778.svg)](https://discord.gg/GhMB3Z) [![Backers and sponors on Patreon](https://img.shields.io/badge/sponsor-patreon-73d6a1.svg)](https://www.patreon.com/phith0n) [![Backers and sponors on Opencollective](https://img.shields.io/badge/backer-opencollective-f89a76.svg)](https://opencollective.com/vulhub#backer)
+Vulhub is an open-source collection of pre-built vulnerable docker environments. No pre-existing knowledge of docker is required, just execute two simple commands and you have a vulnerable environment.
 
 [中文版本(Chinese version)](README.zh-cn.md)
 
- Vulhub is an open-source collection of pre-built vulnerable docker environments. No pre-existing knowledge of docker is required, just execute two simple commands and you have a vulnerable environment.
-
 ## Installation
 
-Install the docker/docker-compose on Ubuntu 16.04:
+Install the docker/docker-compose on Ubuntu 20.04:
 
 ```bash
 # Install pip
@@ -19,7 +35,7 @@ curl -s https://bootstrap.pypa.io/get-pip.py | python3
 curl -s https://get.docker.com/ | sh
 
 # Run docker service
-service docker start
+systemctl start docker
 
 # Install docker compose
 pip install docker-compose
@@ -67,6 +83,7 @@ This project relies on docker. So any error during compilation and running are t
 
 For more question, please contact:
 
+- [Chinese Community](https://www.wangan.com/vulhub)
 - [Discord](https://discord.gg/GhMB3Z)
 - [Twitter](https://twitter.com/vulhub)
 
@@ -76,14 +93,16 @@ Thanks for the following contributors:
 
 More contributors：[Contributors List](contributors.md)
 
-## Backer and Sponsor
+## Partner
 
-Sponsor:
+Our Partners and users:
 
 <p>
+  <a href="https://www.wangan.com/vulhub" target="_blank"><img src="https://vulhub.org/img/sponsor/wangan.png" width="200"></a>
+  <a href="https://www.cvebase.com" target="_blank"><img src="https://vulhub.org/img/sponsor/cvebase.png" width="200"></a>
+  <a href="https://www.huoxian.cn" target="_blank"><img src="https://vulhub.org/img/sponsor/huoxian.png" width="200"></a>
   <a href="https://www.chaitin.cn" target="_blank"><img src="https://vulhub.org/img/sponsor/chaitin.png" width="200"></a>
   <a href="https://xianzhi.aliyun.com/" target="_blank"><img src="https://vulhub.org/img/sponsor/aliyun.svg" width="200"></a>
-  <a href="https://www.didiyun.com/?channel=14196" target="_blank"><img src="https://vulhub.org/img/sponsor/didi.png" width="200"></a>
 </p>
 
 Sponsor vulhub on patreon 🙏
@@ -97,7 +116,7 @@ Sponsor vulhub on opencollective 🙏
   <a href="https://opencollective.com/vulhub#sponsor"><img src="https://opencollective.com/vulhub/sponsors.svg?width=138"></a>
 </p>
 
-More[Donate](http://vulhub.org/#/docs/donate/)。
+More [Donate](http://vulhub.org/#/docs/donate/).
 
 ## License
 
